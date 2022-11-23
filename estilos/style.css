@@ -1,11 +1,11 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 
 body {
-    background-color: violet;
+    background-color: rgb(59, 58, 59);
 }
 
 main {
@@ -14,4 +14,34 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+}
+
+img.foto {
+    height: auto; 
+    width: auto;
+    max-width: 130px; 
+    max-height: 130px;
+    float: left;
+    padding: 10px;
+}
+
+img.voltar {
+    height: auto; 
+    width: auto;
+    max-width: 30px; 
+    max-height: 30px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
 }
